@@ -5,14 +5,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
-	"github.com/dragonchain/dragonchain-installer/internal/dragonchain"
-	"github.com/dragonchain/dragonchain-installer/internal/dragonnet"
-	"github.com/dragonchain/dragonchain-installer/internal/helm"
-	"github.com/dragonchain/dragonchain-installer/internal/kubectl"
-	"github.com/dragonchain/dragonchain-installer/internal/minikube"
-	"github.com/dragonchain/dragonchain-installer/internal/upnp"
-	"github.com/dragonchain/dragonchain-installer/internal/virtualbox"
+	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
+	"github.com/deftOfCenter/dragonchain-installer/internal/dragonchain"
+	"github.com/deftOfCenter/dragonchain-installer/internal/dragonnet"
+	"github.com/deftOfCenter/dragonchain-installer/internal/helm"
+	"github.com/deftOfCenter/dragonchain-installer/internal/kubectl"
+	"github.com/deftOfCenter/dragonchain-installer/internal/minikube"
+	"github.com/deftOfCenter/dragonchain-installer/internal/upnp"
+	"github.com/deftOfCenter/dragonchain-installer/internal/virtualbox"
 )
 
 func fatalLog(v ...interface{}) {
