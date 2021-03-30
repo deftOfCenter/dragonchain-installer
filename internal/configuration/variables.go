@@ -22,7 +22,7 @@ var RegistryPort = 5000
 var MinikubeContext = "dragonchain"
 
 // KubernetesVersion the kubernetes version to use with the dragonchain's minikube cluster
-var KubernetesVersion = "v1.15.10"
+var KubernetesVersion = "v1.20.5"
 
 // MinikubeVMMemory amount of memory to give to the minikube VM (only applicable when creating new minikube cluster)
 var MinikubeVMMemory = "4000mb"
@@ -31,7 +31,7 @@ var MinikubeVMMemory = "4000mb"
 var MinikubeCpus = 2
 
 // LinuxVirtualboxLink direct link for linux virtualbox installer download
-var LinuxVirtualboxLink = "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-Linux_amd64.run"
+var LinuxVirtualboxLink = "https://download.virtualbox.org/virtualbox/6.0.24/VirtualBox-6.0.24-139119-Linux_amd64.run"
 
 // MacosVirtualboxLink direct link for macos virtualbox installer download
 var MacosVirtualboxLink = "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-OSX.dmg"
@@ -43,7 +43,7 @@ var WindowsVirtualboxLink = "https://download.virtualbox.org/virtualbox/6.1.2/Vi
 var LinuxMinikubeArm64Link = "https://storage.googleapis.com/minikube/releases/v1.7.2/minikube-linux-arm64"
 
 // LinuxMinikubeLink direct link for linux minikube executable
-var LinuxMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2/minikube-linux-amd64"
+var LinuxMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.18.1/minikube-linux-amd64"
 
 // MacosMinikubeLink direct link for macos minikube executable
 var MacosMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2/minikube-darwin-amd64"
@@ -52,7 +52,7 @@ var MacosMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2
 var WindowsMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2/minikube-windows-amd64.exe"
 
 // LinuxHelmLink direct link for linux helm package
-var LinuxHelmLink = "https://get.helm.sh/helm-v3.1.0-linux-amd64.tar.gz"
+var LinuxHelmLink = "https://get.helm.sh/helm-v3.5.3-linux-amd64.tar.gz"
 
 // LinuxHelmArm64Link direct link for linux arm64 helm package
 var LinuxHelmArm64Link = "https://get.helm.sh/helm-v3.1.0-linux-arm64.tar.gz"
@@ -67,7 +67,7 @@ var WindowsHelmLink = "https://get.helm.sh/helm-v3.1.0-windows-amd64.zip"
 var LinuxKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/linux/amd64/kubectl"
 
 // LinuxKubectlArm64Link directl link for linux arm64 kubectl executable
-var LinuxKubectlArm64Link = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/linux/arm64/kubectl"
+var LinuxKubectlArm64Link = "https://storage.googleapis.com/kubernetes-release/release/v1.20.5/bin/linux/arm64/kubectl"
 
 // MacosKubectlLink direct link for macos kubectl executable
 var MacosKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/darwin/amd64/kubectl"
