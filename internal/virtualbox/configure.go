@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
+	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
 )
 
 func forwardVirtualboxPort(config *configuration.Configuration) error {
