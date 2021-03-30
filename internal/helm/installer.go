@@ -9,8 +9,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
-	"github.com/dragonchain/dragonchain-installer/internal/downloader"
+	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
+	"github.com/deftOfCenter/dragonchain-installer/internal/downloader"
 )
 
 func helmIsInstalled() bool {
