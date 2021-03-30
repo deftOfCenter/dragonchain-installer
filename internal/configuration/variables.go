@@ -25,7 +25,7 @@ var MinikubeContext = "dragonchain"
 var KubernetesVersion = "v1.20.5"
 
 // MinikubeVMMemory amount of memory to give to the minikube VM (only applicable when creating new minikube cluster)
-var MinikubeVMMemory = "4000mb"
+var MinikubeVMMemory = "3500mb"
 
 // MinikubeCpus number of cpus to give to the minikube VM (only applicable when creating new minikube cluster)
 var MinikubeCpus = 2
