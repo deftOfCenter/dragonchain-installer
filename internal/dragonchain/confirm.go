@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
+	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
 )
 
 type kubectlPodJSONList struct {
