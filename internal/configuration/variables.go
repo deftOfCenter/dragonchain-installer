@@ -64,7 +64,7 @@ var MacosHelmLink = "https://get.helm.sh/helm-v3.1.0-darwin-amd64.tar.gz"
 var WindowsHelmLink = "https://get.helm.sh/helm-v3.1.0-windows-amd64.zip"
 
 // LinuxKubectlLink direct link for linux kubectl executable
-var LinuxKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/linux/amd64/kubectl"
+var LinuxKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.20.5/bin/linux/amd64/kubectl"
 
 // LinuxKubectlArm64Link directl link for linux arm64 kubectl executable
 var LinuxKubectlArm64Link = "https://storage.googleapis.com/kubernetes-release/release/v1.20.5/bin/linux/arm64/kubectl"
