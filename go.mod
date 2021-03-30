@@ -1,4 +1,4 @@
-module github.com/dragonchain/dragonchain-installer
+module github.com/deftOfCenter/dragonchain-installer
 
 go 1.13
 
