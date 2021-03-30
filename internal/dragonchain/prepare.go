@@ -14,7 +14,7 @@ import (
 
 func doesHelmDeploymentExist(name string, namespace string) (bool, error) {
 	helmVersion, err := helm.GetHelmMajorVersion()
-	fmt.Println("Helm Version:" + helmVersion)
+	fmt.Println(fmt.Sprintf("Helm Version: %d", helmVersion))
 	if err != nil {
 		return false, err
 	}
