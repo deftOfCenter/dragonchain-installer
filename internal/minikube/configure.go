@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
+	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
 )
 
 type minikubeProfileList struct {
