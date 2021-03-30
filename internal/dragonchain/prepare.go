@@ -18,11 +18,7 @@ func doesHelmDeploymentExist(name string, namespace string) (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	cmd := exec.Command("helm", "get", "notes", name, "--kube-context", configuration.MinikubeContext)
-	if helmVersion > 2 {
-		cmd = exec.Command("helm", "get", "notes", name, "-n", namespace, "--kube-context", configuration.MinikubeContext)
-	}
-	fmt.Println("Helm command:" + cmd)
+	cmd := exec.Command("helm", "get", "notes", name, "-n", namespace, "--kube-context", configuration.MinikubeContext)
 	cmd.Stderr = os.Stderr
 	if err := cmd.Run(); err != nil {
 		// Will get an error if the deployment does not exist
