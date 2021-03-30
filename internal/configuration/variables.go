@@ -22,7 +22,7 @@ var RegistryPort = 5000
 var MinikubeContext = "dragonchain"
 
 // KubernetesVersion the kubernetes version to use with the dragonchain's minikube cluster
-var KubernetesVersion = "v1.20.5"
+var KubernetesVersion = "v1.17.3"
 
 // MinikubeVMMemory amount of memory to give to the minikube VM (only applicable when creating new minikube cluster)
 var MinikubeVMMemory = "3000mb"
@@ -52,7 +52,7 @@ var MacosMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2
 var WindowsMinikubeLink = "https://storage.googleapis.com/minikube/releases/v1.7.2/minikube-windows-amd64.exe"
 
 // LinuxHelmLink direct link for linux helm package
-var LinuxHelmLink = "https://get.helm.sh/helm-v3.5.3-linux-amd64.tar.gz"
+var LinuxHelmLink = "https://get.helm.sh/helm-v3.1.0-linux-amd64.tar.gz"
 
 // LinuxHelmArm64Link direct link for linux arm64 helm package
 var LinuxHelmArm64Link = "https://get.helm.sh/helm-v3.1.0-linux-arm64.tar.gz"
@@ -64,10 +64,10 @@ var MacosHelmLink = "https://get.helm.sh/helm-v3.1.0-darwin-amd64.tar.gz"
 var WindowsHelmLink = "https://get.helm.sh/helm-v3.1.0-windows-amd64.zip"
 
 // LinuxKubectlLink direct link for linux kubectl executable
-var LinuxKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.20.5/bin/linux/amd64/kubectl"
+var LinuxKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/linux/amd64/kubectl"
 
 // LinuxKubectlArm64Link directl link for linux arm64 kubectl executable
-var LinuxKubectlArm64Link = "https://storage.googleapis.com/kubernetes-release/release/v1.20.5/bin/linux/arm64/kubectl"
+var LinuxKubectlArm64Link = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/linux/arm64/kubectl"
 
 // MacosKubectlLink direct link for macos kubectl executable
 var MacosKubectlLink = "https://storage.googleapis.com/kubernetes-release/release/v1.17.3/bin/darwin/amd64/kubectl"
