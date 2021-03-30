@@ -10,7 +10,6 @@ import (
 
 	"github.com/deftOfCenter/dragonchain-installer/internal/configuration"
 	"github.com/deftOfCenter/dragonchain-installer/internal/helm"
-	"github.com/deftOfCenter/dragonchain-installer/internal/openfaas"
 )
 
 func doesHelmDeploymentExist(name string, namespace string) (bool, error) {
